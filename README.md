@@ -38,8 +38,28 @@ Build a small playable experience where the player can:
 - Oversimplifying religion or culture
 - Turning the society into a fantasy costume
 
-## Next Steps
-1. Choose a game engine
-2. Build the first playable scene
-3. Add dialogue and exploration
-4. Refine the story with research and feedback
+## Engine Choice: Godot 4 (Beginner 3D)
+Godot 4 is the foundation engine for the first prototype because it is:
+- beginner-friendly for first-time developers
+- free and open source
+- capable of small, story-driven 3D projects
+- well suited for quick iteration on exploration and dialogue
+
+## First 3D Prototype Scope (Intentionally Small)
+This repository starts with a beginner-first 3D vertical slice:
+- third-person movement
+- camera follow
+- interaction button
+- simple dialogue
+- one small village test scene
+- one NPC
+
+No combat, large open world, or advanced systems in this first step.
+
+## Starter Project Structure
+A beginner starter structure is included under [`godot/`](./godot/):
+- starter folders for scenes, scripts, assets, and dialogue
+- a short setup guide
+- a first-prototype checklist with milestones
+
+See [`godot/README.md`](./godot/README.md) to begin.
