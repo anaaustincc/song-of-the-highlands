@@ -24,6 +24,16 @@ Build a small playable experience where the player can:
 - complete simple tasks
 - learn about matrilineal family life
 
+## Run the Prototype
+
+The first playable is a dependency-free browser prototype with a CSS 3D village, animated characters, camera-framed scenes, and a short quest. Start a local server from the repository root:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000/`. Move Sari with WASD or the arrow keys, press E near people or ingredients, and use the scene rail to visit the market, garden, and unlocked elders' veranda.
+
 ## Values
 - Respect for elders
 - Cooperation
@@ -63,3 +73,8 @@ A beginner starter structure is included under [`godot/`](./godot/):
 - a first-prototype checklist with milestones
 
 See [`godot/README.md`](./godot/README.md) to begin.
+
+## Next Steps
+1. Refine the story with research and feedback
+2. Add more village locations and scene transitions
+3. Replace prototype shapes with reviewed visual assets
