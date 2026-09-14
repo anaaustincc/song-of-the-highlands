@@ -48,6 +48,32 @@ Then open `http://localhost:8000/`. Move Sari with WASD or the arrow keys, press
 - Oversimplifying religion or culture
 - Turning the society into a fantasy costume
 
+## Engine Choice: Godot 4 (Beginner 3D)
+Godot 4 is the foundation engine for the first prototype because it is:
+- beginner-friendly for first-time developers
+- free and open source
+- capable of small, story-driven 3D projects
+- well suited for quick iteration on exploration and dialogue
+
+## First 3D Prototype Scope (Intentionally Small)
+This repository starts with a beginner-first 3D vertical slice:
+- third-person movement
+- camera follow
+- interaction button
+- simple dialogue
+- one small village test scene
+- one NPC
+
+No combat, large open world, or advanced systems in this first step.
+
+## Starter Project Structure
+A beginner starter structure is included under [`godot/`](./godot/):
+- starter folders for scenes, scripts, assets, and dialogue
+- a short setup guide
+- a first-prototype checklist with milestones
+
+See [`godot/README.md`](./godot/README.md) to begin.
+
 ## Next Steps
 1. Refine the story with research and feedback
 2. Add more village locations and scene transitions
